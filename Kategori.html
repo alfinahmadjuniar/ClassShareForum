@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Gameboy</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+<body>
+
+<!-- JS -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/Logo_web.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Search End ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Cari Kategori" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <!-- <i class="fa fa-search"></i> -->
+                      </form>
+                    </div>
+                    <!-- ***** Search End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html">Beranda</a></li>
+                        <!-- <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li> -->
+                        <li><a href="Kategori.html" class="active">Kategori</a></li>
+                        <li><a href="profile.html">Profile <img src="assets/images/profile.jpg" alt=""></a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+          <!-- ***** Featured Games Start ***** -->
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="featured-games header-text">
+                <div class="heading-warna">
+                  <h4><em>Kategori</em> Game</h4>
+                </div>
+                <div class="owl-features owl-carousel">
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-01.jpg" alt=""> -->
+                      <div class="hover-effect">
+                        <h4>RPG</h4>
+                      </div>
+                    </div>
+                    <h4>Simulasi<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-02.jpg" alt=""> -->
+                      <div class="hover-effect">
+                        <h4>Battleground</h4>
+                      </div>
+                    </div>
+                    <h4>Sport<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-03.jpg" alt=""> -->
+                      <div class="hover-effect">
+                        <h4>Teka Teki</h4>
+                      </div>
+                    </div>
+                    <h4>Sandbox<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-01.jpg" alt=""> -->
+                      <div class="hover-effect">
+                        <h4>Survival</h4>
+                      </div>
+                    </div>
+                    <h4>Santai<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-02.jpg" alt=""> -->
+                      <div class="hover-effect">
+                        <h4>MMORPG</h4>
+                      </div>
+                    </div>
+                    <h4>Fighting<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                  <div class="item">
+                    <div class="thumb">
+                      <!-- <img src="assets/images/featured-03.jpg" alt=""> -->
+                      <!-- <div class="hover-effect">
+                        <h4>Board</h4>
+                      </div> -->
+                    </div>
+                    <h4>Music<br></h4>
+                    <!-- <ul>
+                      <li><i class="fa fa-star"></i> 4.8</li>
+                      <li><i class="fa fa-download"></i> 2.3M</li>
+                    </ul> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="Top-game">
+                <div class="heading-warna">
+                  <h4><em>Top</em> Kategori</h4>
+                </div>
+                <ul>
+                  <li>
+                    <span><h4>01 Action</h4></span>
+                    <!-- <img src="assets/images/avatar-01.jpg" alt="" style="max-width: 46px; border-radius: 50%; margin-right: 15px;"> -->
+                    <!-- <h4> LahutaM</h4> -->
+                    <div class="main-button">
+                      <a href="#">Cari</a>
+                    </div>
+                  </li>
+                  <li>
+                    <span><h4>02 FPS</h4></span>
+                    <!-- <img src="assets/images/avatar-02.jpg" alt="" style="max-width: 46px; border-radius: 50%; margin-right: 15px;">
+                    <h4> Kengan</h4> -->
+                    <div class="main-button">
+                      <a href="#">Cari</a>
+                    </div>
+                  </li>
+                  <li>
+                    <span><h4>03 Strategi</h4></span>
+                    <!-- <img src="assets/images/avatar-03.jpg" alt="" style="max-width: 46px; border-radius: 50%; margin-right: 15px;">
+                    <h4> Areluwa</h4> -->
+                    <div class="main-button">
+                      <a href="#">Cari</a>
+                    </div>
+                  </li>
+                  <li>
+                    <span><h4>04 Casual</h4></span>
+                    <!-- <img src="assets/images/avatar-04.jpg" alt="" style="max-width: 46px; border-radius: 50%; margin-right: 15px;">
+                    <h4> Omeg</h4> -->
+                    <div class="main-button">
+                      <a href="#">Cari</a>
+                    </div>
+                  </li>
+                  <li>
+                    <span><h4>05 Sport</h4></span>
+                    <!-- <img src="assets/images/avatar-01.jpg" alt="" style="max-width: 46px; border-radius: 50%; margin-right: 15px;">
+                    <h4> GangTeam</h4> -->
+                    <div class="main-button">
+                      <a href="#">Cari</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Featured Games End ***** -->
+
+          <!-- ***** Live Stream Start ***** -->
+          <div class="Game-kategori">
+            <div class="col-lg-12">
+              <div class="heading-warna">
+                <h4><em>Adventure </em>- Open World</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/Genshin.jpg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span>84 GB</span>
+                    <h4>Genshin Impact</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/RDR2.jpg" alt="">
+                    <div class="hover-effect">
+                      
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 150 GB</span>
+                    <h4>Red Dead Redemption II</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/GTA.jpeg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 70 GB</span>
+                    <h4>Grand Theft Auto V</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/ASS.jpeg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 30 GB</span>
+                    <h4>Assassin Creed IV</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/ASS2.jpg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 40 GB</span>
+                    <h4>Assassin Creed Mirage</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/PUNK.jpg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 70 GB</span>
+                    <h4>Cyberpunk 2077</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/Elden.jpg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 60 GB</span>
+                    <h4>Elden Ring</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="assets/images/MCPE.jpeg" alt="">
+                    <div class="hover-effect">
+                      <!-- <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img src="assets/images/Logo_Download.avif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span> 10 GB</span>
+                    <h4>Minecraft</h4>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="main-button">
+                  <a href="Kategori.html">Lihat Kategori Lainnya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Live Stream End ***** -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024 <a href="#">Kelompok CSF</a> Company. All rights reserved. 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts disini-->
+
+
+
+  </body>
+
+</html>
